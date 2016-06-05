@@ -1,44 +1,139 @@
-body{
-    margin:auto 0;
+body {
+    margin: auto 0;
     padding: 0;
-}
-h1{ display: none;
-}
-.box-style{
-    float:left;
-    display: inline-block;
+    color: white;
+    background-color: #232020;
+    text-align: center;
+    font-family:'Catamaran', sans-serif;
+
+    }
+
+.box-style {
+    float: left;
     width: 100%;
     height: 100vh;
+   }
+
+/*-----------------------HEADER-------------------------*/
+.box1 {
+    text-align: center;
+    z-index: 150;
+    position: relative;
+    background-color:  #232020;
 }
-.box1{
-    background-color: red;
-    width:50%;
+h1{
+    display: none;
 }
-.box2{
-    background-color: hotpink;
-    width: 50%;
+.p-top {
+    font-size:4.5em;
+    font-family: "Vulgar Display Of Power";
+    }
+.p-top-1 {
+    padding-top:18%;
+    font-size:4.5em;
 }
-.box3{
+.p-bottom{
+    padding-top:-2%;
+    padding-bottom: 5%;
+    font-size:1.8em;
+}
+a:visited {
+    color:black;
+}
+.icon-box1 {
+    padding: 1%;
+    opacity: 0.5;
+    color:black;
+    font-size: 4em;
+}
+.icon-box1:hover{
+    transform: scale(1.2);
+    opacity: 1;
+    transition: 1s;
+    color:white;
+}
+/*-----------------------NAV-------------------------*/
+.box2 {
     background-color: lightcoral;
-    height: 10%;
+    height: auto;
+    position: fixed;
+    z-index: 100;
+    top:0;
+    padding-top: 0;
 }
-.box4{
-    background-color: deepskyblue;
+
+h2{
+    display: none;
+}
+ul{
+
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+}
+
+.box2 nav ul li > a {
+    text-decoration: none;
+    /*text-transform: uppercase;*/
+    color: white;
+    font-size: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
 
 }
-.box5{
-    background-color: darkgoldenrod;
+
+/*-----------------------ABOUT ME-------------------------*/
+.box3 {
+    width:50%;
+    background-color: #282b39;
+    text-align: left;
+    height: 90vh;
+    padding-top:10vh;
 
 }
-.box6{
-    background-color: darkseagreen;
+
+
+.img-box3 {
+    border: 5px solid white;
+    border-radius: 25px;
+    width: 100px;
+    height: 100px;
+}
+
+.box4 {
+    background-color: #282b39;
+    width: 50%;
+    text-align: left;
+    height: 90vh;
+    padding-top:10vh;
+
+
+
 
 }
-.box7{
-    background-color:lightseagreen;
+
+/*-----------------------SKILLS------------------------*/
+.box5 {
 
 }
-.box8{
+.colored{
+    width:150px;
+    height:150px;
+}
+/*-----------------------PROJECTS-------------------------*/
+.box6 {
+    background-color:#282b39;
+
+
+}
+/*-----------------------CONTACT-------------------------*/
+.box7 {
+}
+
+.footer {
     background-color: black;
     height: 10%;
 }
