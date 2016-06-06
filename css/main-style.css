@@ -74,6 +74,7 @@ ul{
 }
 nav ul li {
     display: inline;
+    vertical-align:baseline;
 }
 
 .box2 nav ul li > a {
