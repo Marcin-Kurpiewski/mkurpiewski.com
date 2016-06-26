@@ -7,6 +7,7 @@ body {
     text-align: center;
 
 
+
 }
 
 h1 {
@@ -25,6 +26,7 @@ p {
 
 .small-icon {
     padding: 3%;
+    display: inline-block;
 
     }
 
@@ -34,4 +36,22 @@ p {
 }
 .linked{
     opacity: 0.3;
+}
+
+@media screen and (min-width:300px) and (max-width:768px) {
+    p {
+        font-size: 24px;
+
+    }
+    p:nth-child(2)
+    {
+        padding-bottom: 25%;
+    }
+
+    .small-icon {
+        padding: 3%;
+
+
+
+    }
 }
