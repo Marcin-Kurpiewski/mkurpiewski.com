@@ -5,7 +5,7 @@ body {
     font-family: 'Fjalla One', sans-serif;
     color: #ffffff;
     text-align: center;
-    overflow: hidden;
+
 
 }
 
@@ -15,21 +15,16 @@ h1 {
 
 .box1{
     padding-top: 15%;
+    overflow: hidden;
+    height: 100%;
     }
 p {
-    font-size: 4em;
+    font-size: 36px;
 
 }
-.git {
-    color:black;
 
-}
-/*a:visited {*/
-    /*color: #000000;*/
-/*}*/
 .small-icon {
-    padding: 1%;
-    font-size: 4em;
+    padding: 3%;
 
     }
 
