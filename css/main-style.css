@@ -1,137 +1,42 @@
 body {
     margin: auto 0;
     padding: 0;
-    color: white;
     background-color: #232020;
+    font-family: 'Fjalla One', sans-serif;
+    color: #ffffff;
     text-align: center;
-    font-family:'Catamaran', sans-serif;
+    overflow: hidden;
 
-    }
-
-.box-style {
-    float: left;
-    width: 100%;
-    height: 90vh;
-    padding-top: 10vh;
-   }
-
-/*-----------------------HEADER-------------------------*/
-.box1 {
-    text-align: center;
-    z-index: 150;
-    position: relative;
-    background-color:  #232020;
 }
-h1{
+
+h1 {
     display: none;
 }
-.p-top {
-    font-size:4.5em;
-    font-family: "Vulgar Display Of Power";
+
+.box1{
+    padding-top: 15%;
     }
-.p-top-1 {
-    padding-top:10%;
-    font-size:4.5em;
-}
-.p-bottom{
-    padding-top:-2%;
-    padding-bottom: 5%;
-    font-size:1.8em;
-}
-a:visited {
-    color:black;
-}
-.icon-box1 {
-    padding: 1%;
-    opacity: 0.5;
-    color:black;
+p {
     font-size: 4em;
+
 }
-.icon-box1:hover{
+.git {
+    color:black;
+
+}
+/*a:visited {*/
+    /*color: #000000;*/
+/*}*/
+.small-icon {
+    padding: 1%;
+    font-size: 4em;
+
+    }
+
+.small-icon:hover {
     transform: scale(1.2);
-    opacity: 1;
-    transition: 1s;
-    color:white;
+    transition: 2s;
 }
-/*-----------------------NAV-------------------------*/
-.box2 {
-    background-color: lightcoral;
-    height: auto;
-    position: fixed;
-    z-index: 100;
-    top:0;
-    padding-top: 0;
-}
-
-h2{
-    display: none;
-}
-ul{
-
-    display: inline;
-    margin: 0;
-    padding: 0;
-}
-nav ul li {
-    display: inline;
-    vertical-align:baseline;
-}
-
-.box2 nav ul li > a {
-    text-decoration: none;
-    color: white;
-    font-size: 3em;
-    padding-left: 10px;
-    padding-right: 10px;
-
-}
-
-/*-----------------------ABOUT ME-------------------------*/
-.box3 {
-    width:50%;
-    background-color: #282b39;
-    text-align: left;
-    height: 90vh;
-    padding-top:10vh;
-
-}
-
-.img-box3 {
-    border: 5px solid white;
-    border-radius: 25px;
-    width: 100px;
-    height: 100px;
-    padding: 10px;
-}
-
-.box4 {
-    width: 50%;
-    background-color: #282b39;
-    text-align: left;
-    height: 90vh;
-    padding-top:10vh;
-
-}
-
-/*-----------------------SKILLS------------------------*/
-.box5 {
-
-}
-.colored{
-    width:150px;
-    height:150px;
-}
-/*-----------------------PROJECTS-------------------------*/
-.box6 {
-    background-color:#282b39;
-
-
-}
-/*-----------------------CONTACT-------------------------*/
-.box7 {
-}
-
-.footer {
-    background-color: black;
-    height: 10%;
+.linked{
+    opacity: 0.3;
 }
