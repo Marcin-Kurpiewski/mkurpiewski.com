@@ -1,56 +1,207 @@
+
 body {
 
-    background-color: #232020;
+    /*background-color: #232020;*/
+    background-color: #000000;
+    font-size: 4em;
     font-family: 'Fjalla One', sans-serif;
     color: #ffffff;
     text-align: center;
+    margin: 0 auto;
+    box-sizing: border-box;
 
 }
 
+/*  box1-logo  */
 h1 {
     display: none;
 }
 
-.box1 {
-    padding-top: 15%;
-    overflow: hidden;
-    height: 100%;
+.box1-logo {
+    background: url(../images/computer-black-background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
+    z-index: 999;
+    position: relative;
 }
 
-p {
-    font-size: 4em;
+.logo {
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 5em;
+    width: 30%;
 
 }
 
-.small-icon {
-    padding: 3%;
+li:nth-child(1)
+{
+    left: 50px;
+}
+
+.logo.symbol {
+}
+/*  box2-nav  */
+
+.box2-nav {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+.main-nav {
+    background-color: #000000;
+    opacity: 0.9;
+}
+
+li {
     display: inline-block;
+    padding: 1%;
+    color: #5bc0de;
+}
+
+.clear{
+    text-decoration: none;
+}
+.active-menu {
+    border: 2px solid #ffffff;
+}
+
+/*  box3-about-me */
+
+.box3-about-me {
+    height: 100%;
+    min-height: 100vh;
+    z-index: 50;
+    background-color: #761c19;
+    box-sizing: border-box;
+    padding-top: 4em;
+
+}
+.p-about{
+    width: 50%;
+    padding-left: 4em;
+    padding-bottom: 1em;
+
+}
+.img1-about{
+    width:30%;
+    float: right;
+    position: relative;
+    top:-25vh;
+    left: -4em;
 
 }
 
-.small-icon:hover {
+/* box4-skills */
+.box4-skills{
+    height: 100%;
+    min-height:100vh;
+    z-index: 50;
+    padding:3em;
+    background-image: url("../images/macbgfilter.jpg");
+    background-size: cover;
+}
+
+.box4-skills p{
+    display: inline-block;
+    float: left;
+    width: 23%;
+    padding:1%;
+    margin: 1%;
+    border: 2px solid #ffffff;
+
+
+}
+
+
+.box4-skills p:hover {
+    position: relative;
+    animation: anim1 1s 1;
+    }
+
+@keyframes anim1 {
+    from { background-color: #2b542c;
+        opacity: 0.5;}
+    to { background: #5bc0de;
+    opacity: 1;}
+
+}
+
+/* box5-portfolio */
+
+.box5-portfolio {
+    background-color: #761c19;
+    height: 100%;
+    min-height: 100vh;
+    padding-top: 4em;
+
+}
+
+.parent {
+    width: 14.25em;
+    height: 9.5em;
+    display: inline-block;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+
+}
+
+.child {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-image: url(../images/webdesign.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.parent:hover .child,
+.parent:focus .child {
     transform: scale(1.2);
-    transition: 2s;
+    transition: all .5s;
+}
+.child::before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52, 73, 94, 0.75);
 }
 
-.linked {
-    opacity: 0.3;
+.parent:hover .child:before,
+.parent:focus .child:before {
+    display: block;
+}
+/* box6-contact */
+.box6-contact {
+    background-image: url(../images/mailbox.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    color: #000;
+    display:flex;
+    padding-top: 5%;
+
 }
 
-@media screen and (max-width: 768px) {
-    body {
-        overflow-x: hidden;
-    }
-    p {
-        font-size: 2em;
-
-    }
-
-    a {
-        text-align: center;
-        display: block;
-        padding-top: 3%;
-        padding-bottom: 3%;
-    }
+.left-box-contact{
+    width: 50%;
 
 }
+.right-box-contact{
+    width: 50%;
+}
+ /* box7-footer*/
+.box7-footer{
+    background-color:  #000000;
+    height:5vh;
+
+}
+
