@@ -1,3 +1,3 @@
-# My privat WebPage
+# My private WebPage
 #Enjoy ! 
 #www.mkurpiewski.com
