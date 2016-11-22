@@ -1,4 +1,13 @@
 'use strict';
+
+window.onload = load;
+
+function load()
+{
+
+}
+
+
 setInterval(function randomAnimation(){
     var randomDIV= Math.floor(Math.random()*8);
     var element= document.getElementsByClassName('portfolio-item');

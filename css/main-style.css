@@ -313,7 +313,7 @@ a {
     }
 
     .portfolio-item {
-        background-image: url("../assets/images/bg-portfolio-landing-page.jpg");
+        background-image: url("../assets/images/bg-portfolio-ex0.jpg");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: 100% 100%;
@@ -328,11 +328,11 @@ a {
     }
 
     .portfolio-item:nth-child(2n) {
-        background-image: url("../assets/images/bg-portfolio-event-app.jpg");
+        background-image: url("../assets/images/bg-portfolio-landing-page.jpg");
     }
 
     .portfolio-item:nth-child(3n) {
-        background-image: url("../assets/images/bg-portfolio-ex1.jpg");
+        background-image: url("../assets/images/bg-portfolio-event-app.jpg");
     }
 
     .portfolio-item:nth-child(4n) {
@@ -344,7 +344,7 @@ a {
     }
 
     .portfolio-item:nth-child(6n) {
-        background-image: url("../assets/images/bg-portfolio-ex4.jpg");
+        background-image: url("../assets/images/bg-portfolio-ex7.jpg");
     }
 
     .portfolio-item:nth-child(7n) {
@@ -365,6 +365,10 @@ a {
         text-transform: uppercase;
         padding-top: 17%;
         font-size: 16px;
+    }
+    .portfolio-item > p:hover{
+        color:#d6d5bf;
+        text-shadow: #282828;
     }
 
     .portfolio-item > a {
@@ -722,6 +726,14 @@ a {
 
     .web-title {
         font-size: 44px;
+    }
+    .portfolio-item > p {
+        font-size: 26px;
+        padding-top: 25%;
+    }
+
+    .portfolio-item > a {
+        font-size: 26px;
     }
 }
 
