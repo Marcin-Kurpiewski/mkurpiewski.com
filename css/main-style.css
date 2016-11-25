@@ -525,7 +525,7 @@ a {
         width: 60%;
     }
 
-    .
+
     .hobbies-motto {
         font-size: 28px;
     }
@@ -537,6 +537,15 @@ a {
     .hobbies-item p {
         font-size: 26px;
     }
+    .portfolio-item > p {
+        font-size: 20px;
+        padding-top: 10%;
+    }
+
+    .portfolio-item > a {
+        font-size: 20px;
+    }
+
 
 }
 
@@ -634,11 +643,11 @@ a {
     }
 
     .portfolio-item > p {
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .portfolio-item > a {
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .contact-message a img {
@@ -652,6 +661,13 @@ a {
 }
 
 @media screen and (min-width: 1280px) {
+    .logo-mobile {
+        padding-top: 40vh;
+    }
+
+    .web-title {
+        font-size: 44px;
+    }
     .about-me p {
         font-size: 26px;
     }
@@ -706,7 +722,14 @@ a {
     .portfolio-item {
         width: 25%;
     }
+    .portfolio-item > p {
+        font-size: 26px;
+        padding-top: 17%;
+    }
 
+    .portfolio-item > a {
+        font-size: 26px;
+    }
     div.contact-message {
         margin-left: 10%;
         margin-right: 10%;
@@ -719,24 +742,6 @@ a {
 
 }
 
-@media screen and (min-width: 1280px) {
-    .logo-mobile {
-        padding-top: 40vh;
-    }
-
-    .web-title {
-        font-size: 44px;
-    }
-    .portfolio-item > p {
-        font-size: 26px;
-        padding-top: 25%;
-    }
-
-    .portfolio-item > a {
-        font-size: 26px;
-    }
-}
-
 @media screen and (min-width: 1440px) {
     .portfolio-item {
 
@@ -744,7 +749,7 @@ a {
     }
 }
 
-@media screen and (max-width: 2040px) {
+@media screen and (min-width: 2040px) {
 
 }
 
