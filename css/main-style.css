@@ -64,7 +64,7 @@ a {
         background: url('../assets/images/bg-presentation-2560x1280.jpg');
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: 52% center;
+        background-position: 50% center;
         opacity: 0.4;
 
     }
@@ -118,10 +118,11 @@ a {
     }
 
     .about-me p {
-        width: 50%;
+        width: 38%;
         text-align: start;
         float: left;
         font-size: 16px;
+        padding-left: 12%;
 
     }
 
@@ -293,9 +294,6 @@ a {
         font-size: 16px;
     }
 
-    /*.portfolio {*/
-    /*background-color: #333333;*/
-    /*}*/
     .portfolio-container {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -324,9 +322,15 @@ a {
         -webkit-transition: -webkit-filter 1s;
         transition: -webkit-filter 1s;
         transition: filter 1s;
-        transition: filter 1s, -webkit-filter 1s;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
 
     }
@@ -345,6 +349,7 @@ a {
 
     .portfolio-item:nth-child(5n) {
         background-image: url("../assets/images/bg-portfolio-ex3.jpg");
+
     }
 
     .portfolio-item:nth-child(6n) {
@@ -367,7 +372,6 @@ a {
     .portfolio-item > p {
         color: #ffffff;
         text-transform: uppercase;
-        /*padding-top: 17%;*/
         font-size: 16px;
     }
     .portfolio-item > p:hover{
@@ -380,12 +384,6 @@ a {
         font-size: 16px;
     }
 
-    /*div.portfolio-item::before{*/
-    /*content:"TEXT";*/
-    /*background-color: white;*/
-    /*width: 100%;*/
-    /*height: 200px;*/
-    /*}*/
     p.contact-message {
         display: none;
     }
@@ -543,7 +541,6 @@ a {
     }
     .portfolio-item > p {
         font-size: 20px;
-        /*padding-top: 10%;*/
     }
 
     .portfolio-item > a {
@@ -728,7 +725,6 @@ a {
     }
     .portfolio-item > p {
         font-size: 26px;
-        /*padding-top: 17%;*/
     }
 
     .portfolio-item > a {
