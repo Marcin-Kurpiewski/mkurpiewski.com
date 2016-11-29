@@ -62,10 +62,13 @@ a {
         max-width: 100%;
         height: 100vh;
         background: url('../assets/images/bg-presentation-2560x1280.jpg');
-        background-size: cover;
+        background-size: 100% 100%;
         background-repeat: no-repeat;
         background-position: 50% center;
         opacity: 0.4;
+        position: absolute;
+        top:0;
+        z-index: 10;
 
     }
 
@@ -79,7 +82,30 @@ a {
     .web-title {
         font-size: 22px;
     }
+    #particles-js{
+        z-index: 20;
+    }
 
+    nav{
+        display: none;
+
+    }
+    ul li {
+        list-style-type: none;
+        border:10px solid black;
+        border-radius:100px;
+        text-align:center;
+        width:100px;
+        height:100px;
+        cursor:pointer;
+
+    }
+
+    ul li a {
+        text-decoration: none;
+        margin:0 auto;
+
+    }
     .about-me {
 
         height: 100%;
