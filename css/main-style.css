@@ -67,6 +67,7 @@ a {
         background-position: 50% center;
         opacity: 0.4;
 
+
     }
 
     .logo-mobile {
@@ -79,7 +80,150 @@ a {
     .web-title {
         font-size: 22px;
     }
+    /*--------navi-test--------*/
+    nav {
+        width: 400px;
+        height: 768px;
+        box-sizing: border-box;
+        position: relative;
+        margin-left:2%;
+        /*z-index:100;*/
+    }
+    a {
+        text-decoration: none;
+        text-align:center;
 
+    }
+
+    .burger {
+        position: absolute;
+        list-style-type: none;
+        border: 10px solid rgba(20, 200, 255, 0.5);
+        background-color:rgba(20, 200, 255, 0.5);
+        border-radius: 100px;
+        text-align: center;
+        width: 75px;
+        height: 75px;
+        cursor: pointer;
+        top: 46.194%;
+        left:0;
+        z-index:110;
+    }
+    .bar-menu-close{
+        position: absolute;
+        list-style-type: none;
+        border: 2px solid white;
+        border-radius: 100px;
+        text-align: center;
+        width: 75px;
+        height: 75px;
+        cursor: pointer;
+        top: 46.194%;
+
+    }
+    .bar-menu-close:nth-child(1) {
+        left: 5%;
+        top: 46.194%;
+        background-color: rgba(209, 179, 117, 0.4);
+
+    }
+    .bar-menu-close:nth-child(2) {
+        left: 3%;
+        top: 44.194%;
+        background-color: rgba(40, 101, 111, 0.4)
+
+    }
+
+    .bar-menu-close:nth-child(3) {
+        left: 7%;
+        top: 47.194%;
+        background-color: rgba(255, 0, 0, 0.4)
+
+    }
+
+    .bar-menu-close:nth-child(4) {
+        left: 6%;
+        top: 49.194%;
+        background-color: rgba(255, 255, 0, 0.4)
+
+    }
+
+    .bar-menu-close:nth-child(5) {
+        left:3%;
+        top: 49.194%;
+        background-color: rgba(255, 0, 255, 0.4)
+
+    }
+    .bar-menu-close:nth-child(6) {
+        left: 1%;
+        top: 50.194%;
+        background-color: rgba(0, 255, 255, 0.4)
+
+    }
+    .bar-menu-close:nth-child(7) {
+        left: 0;
+        top: 51.194%;
+        background-color: rgba(0, 255, 0, 0.4);
+
+    }
+    .bar-menu-open{
+        position: absolute;
+        list-style-type: none;
+        border: 2px solid white;
+        border-radius: 100px;
+        text-align: center;
+        width: 75px;
+        height: 75px;
+        cursor: pointer;
+        top: 46.194%;
+        left:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+    }
+
+    .bar-menu-open:nth-child(1) {
+        left: 16.2215%;
+        top: 0;
+        background-color: rgba(209, 179, 117, 0.5);
+        border-color: rgb(209, 179, 117);
+    }
+    .bar-menu-open:nth-child(2) {
+        left: 35.3555%;
+        top: 10.8385%;
+        background-color: rgb(40, 101, 111)
+    }
+
+    .bar-menu-open:nth-child(3) {
+        left: 46.194%;
+        top: 27.06%;
+        background-color: rgb(255, 0, 0)
+    }
+
+    .bar-menu-open:nth-child(4) {
+        left: 50%;
+        top: 46.194%;
+        background-color: rgba(255, 255, 0, 0.4)
+    }
+
+    .bar-menu-open:nth-child(5) {
+        left: 46.194%;
+        top: 65.3285%;
+        background-color: rgba(255, 0, 255, 0.4)
+    }
+    .bar-menu-open:nth-child(6) {
+        left: 35.3555%;
+        top: 81.4594%;
+        background-color: rgba(0, 255, 255, 0.4)
+    }
+    .bar-menu-open:nth-child(7) {
+        left: 17.6345%;
+        top: 92.388%;
+        background-color: rgba(0, 255, 0, 0.4);
+    }
     .about-me {
 
         height: 100%;

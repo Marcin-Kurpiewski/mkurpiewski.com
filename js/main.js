@@ -1,12 +1,5 @@
 'use strict';
 
-window.onload = load;
-
-function load()
-{
-
-}
-
 
 setInterval(function randomAnimation(){
     var randomDIV= Math.floor(Math.random()*8);
@@ -25,3 +18,13 @@ setInterval(function randomAnimation(){
     var newElement= element[randomDIV];
     newElement.className='portfolio-item animated ' + randomAnimation;
 },3000);
+
+
+$(document).ready(function(){
+    $(".burger").on("click", function() {
+        $(".bar-menu-close").animate({opacity:'1'}).css('transition','1s').toggleClass("bar-menu-open").animate({opacity:'0.1'}).css('transition','1s');
+        $(".bar-menu-open").animate({opacity:'1'});
+    });
+
+});
+
