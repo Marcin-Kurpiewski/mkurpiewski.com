@@ -22,9 +22,20 @@ setInterval(function randomAnimation(){
 
 $(document).ready(function(){
     $(".burger").on("click", function() {
-        $(".bar-menu-close").animate({opacity:'1'}).css('transition','1s').toggleClass("bar-menu-open").animate({opacity:'0.1'}).css('transition','1s');
-        $(".bar-menu-open").animate({opacity:'1'});
+        $("ul li")
+            .animate({opacity:'0.1'})
+            .css('transition','2s')
+            .toggleClass("bar-menu-open")
+            .css('transition','2s');
+
+        // $('bar-menu-close').css('animation-iteration-count','1');
+        // $("li")
+        //     .animate({opacity:'0.1'})
+        //     .css('transition','2s')
+        //     .toggleClass("bar-menu-open")
+        //     .animate({opacity:'1'})
+        //     .css('transition','1.5s');
+
     });
 
 });
-
