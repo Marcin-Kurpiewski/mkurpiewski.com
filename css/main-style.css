@@ -1,9 +1,8 @@
 @keyframes proloader-anim {
-    50% {
-        transform: scale(1);
-        opacity: 1; }
-    100% {
-        opacity: 0; } }
+    50% {  transform: scale(1);  opacity: 1; }
+    100% {  opacity: 0; } }
+
+
 body {
     margin: 0 auto;
     padding: 0;
@@ -22,7 +21,7 @@ h1 {
 }
 
 h2 {
-    font-size: 4.8753em;
+    font-size: 2.8753em;
     margin: 0;
     padding: 0 0 2% 0;
     color: #646563;
@@ -39,18 +38,18 @@ a {
 }
 
 
-@media screen and (max-width: 219px) {
-    section {
-        display: none;
-    }
+/*@media screen and (max-width: 219px) {*/
+    /*section {*/
+        /*display: none;*/
+    /*}*/
 
-    footer {
-        display: none
-    }
+    /*footer {*/
+        /*display: none*/
+    /*}*/
 
-}
+/*}*/
 
-@media screen and (min-width: 220px) {
+/*@media screen and (min-width: 220px) {*/
 
     #preloader {
         position: fixed;
@@ -148,30 +147,31 @@ a {
         height: auto;
         opacity: 0.6;
     }
-
-    .about-me p {
-        width: 38%;
-        text-align: start;
-        float: left;
-        font-size: 16px;
-        padding-left: 12%;
+    .about-me-list{
 
     }
+    .about-me-list-item {
+        display: inline-block;
+        width: 44%;
+        margin: 0;
+        text-align: start;
+        float: left;
+        font-size: 1em;
 
-    .about-me p:nth-child(even) {
+    }
+    dt.about-me-list-item{
+        padding-left: 10%;
+        color: #3f3f40;
+    }
+    dd.about-me-list-item{
         color: #d6d5bf;
         text-decoration: underline;
     }
 
-    .about-me p:last-child {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-
-    }
 
     .btn-down-cv {
-        display: block;
+        display: inline-block;
+        width: 80%;
         text-align: center;
         text-decoration: none;
         text-transform: uppercase;
@@ -179,7 +179,7 @@ a {
         background-color: #3f3f40;
         border-radius: 10px;
         padding: 1.5% 4%;
-        margin: 0 5% 0 5%;
+        margin:5% 0;
     }
 
     .btn-down-cv:hover {
@@ -474,7 +474,7 @@ a {
         font-size: 10px;
     }
 
-}
+/*}*/
 
 @media screen and (min-width: 480px) {
 
@@ -482,7 +482,13 @@ a {
         width: 77%;
 
     }
+    .about-me-list-item {
+        font-size: 1.5em;
 
+    }
+    dt.about-me-list-item{
+          padding-left: 12%;
+      }
     .hobbies-motto {
         font-size: 24px;
     }
@@ -516,9 +522,6 @@ a {
 
 @media screen and (min-width: 769px) {
 
-    .about-me-item {
-        width: 50%;
-    }
 
     .logo-mobile {
         width: 50%;
@@ -527,14 +530,21 @@ a {
     .images-portrait {
         width: 80%;
     }
+    .about-me-item {
+        width: 50%;
+    }
+    .about-me-list-item {
+        width: 50%;
+        margin-top: 1%;
 
-    .about-me p {
-        font-size: 18px;
+    }
+    dt.about-me-list-item{
+        padding-left: 0%;
     }
 
     .btn-down-cv {
         letter-spacing: 3px;
-        margin: 0 45px 0 0;
+        width: 90%;
     }
 
     .education-container {
@@ -584,8 +594,8 @@ a {
 
 @media screen and (min-width: 1024px) {
 
-    .about-me p {
-        font-size: 22px;
+    .about-me-list-item {
+        font-size: 28px;
     }
 
     .education-item p {
