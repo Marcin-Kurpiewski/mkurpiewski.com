@@ -1,10 +1,16 @@
+@keyframes proloader-anim {
+    50% {
+        transform: scale(1);
+        opacity: 1; }
+    100% {
+        opacity: 0; } }
 body {
     margin: 0 auto;
     padding: 0;
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-style: italic;
-    font-size: 1.5em;
+
     background-color: #282828;
     width: 100%;
     max-height: 100%;
@@ -32,7 +38,8 @@ a {
     text-decoration: none;
 }
 
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 219px) {
     section {
         display: none;
     }
@@ -43,7 +50,31 @@ a {
 
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 220px) {
+
+    #preloader {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: 125;
+        background: #282828;
+
+
+    }
+
+    .preloader-item {
+        width: 200px;
+        height: 200px;
+        border: 10px solid #FF6153;
+        border-radius: 50%;
+        margin: auto;
+        margin-top: 25%;
+        transform: scale(0);
+        animation: proloader-anim 1s ease infinite 0ms;
+    }
+
+
+
 
     section {
         padding: 5% 0 5% 0;
