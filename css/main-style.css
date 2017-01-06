@@ -9,7 +9,7 @@ body {
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-style: italic;
-    font-size: 1em;
+    font-size: 16px;
     background-color: #282828;
     width: 100%;
     max-height: 100%;
@@ -21,7 +21,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2.8753em;
+    font-size:48px;
     margin: 0;
     padding: 0 0 2% 0;
     color: #646563;
@@ -91,8 +91,8 @@ a {
         /*width: 100%;*/
         /*max-width: 100%;*/
         height: 100vh;
-        min-height: 860px;
-        background: url('../assets/images/bg-presentation-2560x1280.jpg');
+        /*min-height: 860px;*/
+        background: url('../assets/images/bg-pres-2560x1280.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position:center;
@@ -100,7 +100,7 @@ a {
 
     }
 
-    .logo-mobile {
+    .logo {
         width: 100%;
         padding-top: 50vh;
         opacity: 0.4;
@@ -147,20 +147,17 @@ a {
         height: auto;
         opacity: 0.6;
     }
-    .about-me-list{
 
-    }
     .about-me-list-item {
         display: inline-block;
         width: 44%;
-        margin: 0;
+        margin: 1% 0;
         text-align: start;
         float: left;
-        font-size: 1em;
 
     }
     dt.about-me-list-item{
-        padding-left: 10%;
+        padding-left: 12%;
         color: #3f3f40;
     }
     dd.about-me-list-item{
@@ -478,16 +475,18 @@ a {
 
 @media screen and (min-width: 480px) {
 
-    .logo-mobile {
+    .logo {
         width: 77%;
 
     }
-    .about-me-list-item {
-        font-size: 1.5em;
-
+    .about-me-list-item, .btn-down-cv {
+        font-size: 24px;
+    }
+    dl.about-me-list{
+        padding-left: 12%;
     }
     dt.about-me-list-item{
-          padding-left: 12%;
+          padding-left: 10%;
       }
     .hobbies-motto {
         font-size: 24px;
@@ -523,16 +522,21 @@ a {
 @media screen and (min-width: 769px) {
 
 
-    .logo-mobile {
+    .logo {
         width: 50%;
     }
 
     .images-portrait {
-        width: 80%;
+        max-width: 80%;
     }
-    .about-me-item {
-        width: 50%;
-    }
+    .about-me-item:first-of-type {
+        width: 40%;
+    }.about-me-item:last-of-type {
+         width: 60%;
+     }
+    dl.about-me-list{
+        padding-left: 12%;
+     }
     .about-me-list-item {
         width: 50%;
         margin-top: 1%;
@@ -593,6 +597,7 @@ a {
 }
 
 @media screen and (min-width: 1024px) {
+
 
     .about-me-list-item {
         font-size: 28px;
@@ -704,14 +709,14 @@ a {
 }
 
 @media screen and (min-width: 1280px) {
-    .logo-mobile {
+    .logo {
         padding-top: 40vh;
     }
 
     .web-title {
         font-size: 44px;
     }
-    .about-me p {
+    .about-me-list-item {
         font-size: 26px;
     }
 
