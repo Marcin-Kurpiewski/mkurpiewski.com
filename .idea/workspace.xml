@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ce6ff5a6-8971-4242-9029-713d9d51e5de" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main-style.css" afterPath="$PROJECT_DIR$/css/main-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="www.mkurpiewski.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,56 +23,28 @@
     <favorites_list name="www.mkurpiewski.com" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5963512">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="main-style.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/main-style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="8993">
-                  <caret line="529" column="8" lean-forward="false" selection-start-line="529" selection-start-column="8" selection-end-line="529" selection-end-column="8" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1195">
-                  <caret line="224" column="0" lean-forward="false" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="77" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/main.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="main-style.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/css/main-style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="765">
-                  <caret line="600" column="0" lean-forward="false" selection-start-line="600" selection-start-column="0" selection-end-line="600" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="main-style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/main-style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="48" column="5" lean-forward="false" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="773">
+              <caret line="185" column="14" lean-forward="true" selection-start-line="185" selection-start-column="14" selection-end-line="185" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,7 +59,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="NEW-VERSION" />
       </map>
     </option>
     <option name="PUSH_TAGS">
@@ -112,8 +86,8 @@
         <option value="extensions::extension" />
         <option value="chrome-extension://kkelicaakdanhinjdeammmilcgefonfh/js/jquery.js" />
         <option value="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/data/js/libs/jquery-1.11.1.min.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main-style.css" />
       </list>
     </option>
@@ -173,7 +147,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -210,17 +183,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendors" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -235,18 +205,18 @@
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\HP-M\.WebStorm2016.2\Projects\www.mkurpiewski.com\assets\icons" />
-      <recent name="C:\Users\HP-M\.WebStorm2016.2\Projects\www.mkurpiewski.com\assets" />
-      <recent name="C:\Users\HP-M\.WebStorm2016.2\Projects\www.mkurpiewski.com\images" />
-      <recent name="C:\Users\HP-M\.WebStorm2016.2\Projects\www.mkurpiewski.com\js\vendors" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\HP-M\.WebStorm2016.2\Projects\www.mkurpiewski.com\assets\images" />
       <recent name="C:\Users\HP-M\.WebStorm2016.2\Projects\www.mkurpiewski.com\js\vendors\particles" />
       <recent name="C:\Users\HP-M\.WebStorm2016.2\Projects\www.mkurpiewski.com\assets\icons" />
       <recent name="C:\Users\HP-M\.WebStorm2016.2\Projects\www.mkurpiewski.com\assets" />
       <recent name="C:\Users\HP-M\.WebStorm2016.2\Projects\www.mkurpiewski.com" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP-M\.WebStorm2016.2\Projects\www.mkurpiewski.com\assets\icons" />
+      <recent name="C:\Users\HP-M\.WebStorm2016.2\Projects\www.mkurpiewski.com\assets" />
+      <recent name="C:\Users\HP-M\.WebStorm2016.2\Projects\www.mkurpiewski.com\images" />
+      <recent name="C:\Users\HP-M\.WebStorm2016.2\Projects\www.mkurpiewski.com\js\vendors" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -402,6 +372,22 @@
       <workItem from="1483276154595" duration="631000" />
       <workItem from="1483710484870" duration="1399000" />
       <workItem from="1483712444823" duration="58000" />
+      <workItem from="1483880956556" duration="582000" />
+      <workItem from="1484052030549" duration="1542000" />
+      <workItem from="1484058045008" duration="602000" />
+      <workItem from="1484172472128" duration="124000" />
+      <workItem from="1484251029708" duration="1003000" />
+      <workItem from="1484254007002" duration="601000" />
+      <workItem from="1484295737186" duration="609000" />
+      <workItem from="1484297350054" duration="13000" />
+      <workItem from="1484297403384" duration="14000" />
+      <workItem from="1484832650146" duration="45000" />
+      <workItem from="1484832707566" duration="307000" />
+      <workItem from="1485001738138" duration="384000" />
+      <workItem from="1485203530556" duration="786000" />
+      <workItem from="1485209887532" duration="30000" />
+      <workItem from="1485797875667" duration="598000" />
+      <workItem from="1487028374764" duration="188000" />
     </task>
     <task id="LOCAL-00001" summary="remove old project, add new section, and styling css">
       <created>1471539709502</created>
@@ -610,7 +596,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="356822000" />
+    <option name="totallyTimeSpent" value="365597000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -623,9 +609,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12371946" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12332545" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984716" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45532832" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33226067" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -821,22 +807,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="48" column="5" lean-forward="false" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1195">
-          <caret line="224" column="0" lean-forward="false" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="600" column="0" lean-forward="false" selection-start-line="600" selection-start-column="0" selection-end-line="600" selection-end-column="0" />
+        <state relative-caret-position="773">
+          <caret line="185" column="14" lean-forward="true" selection-start-line="185" selection-start-column="14" selection-end-line="185" selection-end-column="14" />
           <folding />
         </state>
       </provider>
