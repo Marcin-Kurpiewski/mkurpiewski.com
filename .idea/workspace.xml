@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ce6ff5a6-8971-4242-9029-713d9d51e5de" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main-style.css" afterPath="$PROJECT_DIR$/css/main-style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="www.mkurpiewski.com.iws" />
@@ -37,8 +36,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="773">
-              <caret line="185" column="14" lean-forward="true" selection-start-line="185" selection-start-column="14" selection-end-line="185" selection-end-column="14" />
+            <state relative-caret-position="603">
+              <caret line="175" column="26" lean-forward="false" selection-start-line="175" selection-start-column="26" selection-end-line="175" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -87,8 +86,8 @@
         <option value="chrome-extension://kkelicaakdanhinjdeammmilcgefonfh/js/jquery.js" />
         <option value="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/data/js/libs/jquery-1.11.1.min.js" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main-style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -387,7 +386,7 @@
       <workItem from="1485203530556" duration="786000" />
       <workItem from="1485209887532" duration="30000" />
       <workItem from="1485797875667" duration="598000" />
-      <workItem from="1487028374764" duration="188000" />
+      <workItem from="1487028374764" duration="244000" />
     </task>
     <task id="LOCAL-00001" summary="remove old project, add new section, and styling css">
       <created>1471539709502</created>
@@ -592,11 +591,18 @@
       <option name="project" value="LOCAL" />
       <updated>1483712492042</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="add new lux-clean project">
+      <created>1487028579531</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1487028579531</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="365597000" />
+    <option name="totallyTimeSpent" value="365653000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -644,7 +650,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add properties, sizing fonts" />
     <MESSAGE value="new design, new sizing. &#10;create section,&#10;add flexbox." />
     <MESSAGE value="media queries 320 - 480" />
     <MESSAGE value="media queries min 32 and min 480 all done. &#10;only missing page with logo" />
@@ -669,7 +674,8 @@
     <MESSAGE value="add preloader" />
     <MESSAGE value="refactor images properties. change header section" />
     <MESSAGE value="create new dl list." />
-    <option name="LAST_COMMIT_MESSAGE" value="create new dl list." />
+    <MESSAGE value="add new lux-clean project" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new lux-clean project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -820,8 +826,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="773">
-          <caret line="185" column="14" lean-forward="true" selection-start-line="185" selection-start-column="14" selection-end-line="185" selection-end-column="14" />
+        <state relative-caret-position="603">
+          <caret line="175" column="26" lean-forward="false" selection-start-line="175" selection-start-column="26" selection-end-line="175" selection-end-column="26" />
           <folding />
         </state>
       </provider>
