@@ -393,13 +393,13 @@ p.skills-title {
 .portfolio-item:hover {
     -webkit-filter: opacity(150%);
     filter: opacity(150%);
+    cursor: pointer;
 }
 
 .portfolio-item > p {
     color: #fff;
     /*text-transform: uppercase;*/
     font-size: 28px;
-
 
 }
 
