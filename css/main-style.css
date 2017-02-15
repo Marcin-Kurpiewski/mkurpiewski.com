@@ -1,7 +1,12 @@
-/*@keyframes proloader-anim {*/
-/*50% {  transform: scale(1);  opacity: 1; }*/
-/*100% {  opacity: 0; } */
-/*}*/
+@keyframes proloader-anim {
+    50% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
 
 body {
     margin: 0 auto;
@@ -30,7 +35,8 @@ h2 {
 }
 
 p {
-    color: #646563;
+    /*color: #646563;*/
+    color: #fff;
 }
 
 a {
@@ -340,8 +346,8 @@ p.skills-title {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100% 100%;
-    -webkit-filter: opacity(30%);
-    filter: opacity(30%);
+    /*-webkit-filter: opacity(30%);*/
+    /*filter: opacity(30%);*/
     width: 100%;
     height: 200px;
     -webkit-transition: -webkit-filter 1s;
@@ -357,6 +363,8 @@ p.skills-title {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    box-sizing: border-box;
+    border: 10px solid #646563;
 
 }
 
@@ -391,21 +399,22 @@ p.skills-title {
 }
 
 .portfolio-item:hover {
-    -webkit-filter: opacity(150%);
-    filter: opacity(150%);
+    -webkit-filter: opacity(30%);
+    filter: opacity(30%);
+    transition: filter 0.5s;
 }
 
 .portfolio-item > p {
     color: #fff;
-    /*text-transform: uppercase;*/
-    font-size: 28px;
+    font-size: 24px;
 
 }
 
 .portfolio-item > p:hover {
     font-weight: bold;
-    text-shadow: #282828;
-    font-size: 36px;
+    font-size: 30px;
+    transition: font-size 0.5s;
+    opacity: 1;
 }
 
 .portfolio-item > a {
@@ -773,7 +782,7 @@ footer p {
 
         .skills-right-box {
 
-            padding-top: 16%;
+            padding-top: 10%;
 
         }
 
@@ -817,3 +826,4 @@ footer p {
     @media screen and (min-width: 2040px) {
 
     }
+}
