@@ -369,16 +369,17 @@ p.skills-title {
 }
 
 .portfolio-item:nth-child(4n) {
-    background-image: url("../assets/images/bg-portfolio-ex2.jpg");
+    background-image: url("../assets/images/lux-clean.png");
+
 }
 
 .portfolio-item:nth-child(5n) {
-    background-image: url("../assets/images/bg-portfolio-ex3.jpg");
+    background-image: url("../assets/images/mk2.0-mini.png");
 
 }
 
 .portfolio-item:nth-child(6n) {
-    background-image: url("../assets/images/bg-portfolio-ex7.jpg");
+    background-image: url("../assets/images/casino-game.png");
 }
 
 .portfolio-item:nth-child(7n) {
@@ -395,19 +396,22 @@ p.skills-title {
 }
 
 .portfolio-item > p {
-    color: #ffffff;
-    text-transform: uppercase;
-    font-size: 16px;
+    color: #fff;
+    /*text-transform: uppercase;*/
+    font-size: 28px;
+
+
 }
 
 .portfolio-item > p:hover {
-    color: #d6d5bf;
+    font-weight: bold;
     text-shadow: #282828;
+    font-size: 36px;
 }
 
 .portfolio-item > a {
     color: #ffffff;
-    font-size: 16px;
+    font-size: 28px;
 }
 
 p.contact-message {
