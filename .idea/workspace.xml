@@ -4,6 +4,8 @@
     <list default="true" id="ce6ff5a6-8971-4242-9029-713d9d51e5de" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main-style.css" afterPath="$PROJECT_DIR$/css/main-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
     </list>
     <ignored path="www.mkurpiewski.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -15,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="C:\Users\HP-M\.WebStorm2016.3\Projects\www.mkurpiewski.com" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -23,13 +25,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="main-style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main-style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main-style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="395" column="19" lean-forward="false" selection-start-line="395" selection-start-column="19" selection-end-line="395" selection-end-column="19" />
+            <state relative-caret-position="6086">
+              <caret line="358" column="28" lean-forward="true" selection-start-line="358" selection-start-column="28" selection-end-line="358" selection-end-column="28" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="5" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="534">
+              <caret line="225" column="88" lean-forward="false" selection-start-line="225" selection-start-column="88" selection-end-line="225" selection-end-column="88" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.min.js" pinned="false" current-in-tab="true">
+        <entry file="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+          <provider selected="true" editor-type-id="httpFileEditor">
+            <state />
           </provider>
         </entry>
       </file>
@@ -72,15 +101,16 @@
         <option value="D:/DOWNLOAD/CHROME/particles.js-master/particles.js-master/demo/particles.json" />
         <option value="$PROJECT_DIR$/js/particles.json" />
         <option value="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/data/js/libs/jquery-1.11.1.min.js" />
-        <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/data/js/libs/jquery-3.1.1.min.js" />
-        <option value="chrome-extension://jabopobgcpjmedljpbcaablpmlmfcogm/jquery.min.js" />
         <option value="chrome-extension://gkojfkhlekighikafcpjkiklfbnlmeio/js/jquery.min.js" />
         <option value="extensions::messaging" />
         <option value="extensions::extension" />
-        <option value="chrome-extension://kkelicaakdanhinjdeammmilcgefonfh/js/jquery.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main-style.css" />
+        <option value="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/data/js/libs/jquery-3.1.1.min.js" />
+        <option value="chrome-extension://kkelicaakdanhinjdeammmilcgefonfh/js/jquery.js" />
+        <option value="chrome-extension://jabopobgcpjmedljpbcaablpmlmfcogm/jquery.min.js" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" />
       </list>
     </option>
   </component>
@@ -91,8 +121,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-5" />
     <option name="width" value="2576" />
     <option name="height" value="1416" />
   </component>
@@ -139,7 +168,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -196,13 +224,14 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="last_opened_file_path" value="$USER_HOME$/.WebStorm2016.2/Projects/www.lux-clean.dk" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.WebStorm2016.2/Projects/Casino-game" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
@@ -395,7 +424,9 @@
       <workItem from="1487028374764" duration="944000" />
       <workItem from="1487074200496" duration="600000" />
       <workItem from="1487079820120" duration="649000" />
-      <workItem from="1487156517781" duration="7324000" />
+      <workItem from="1487156517781" duration="8361000" />
+      <workItem from="1487185789957" duration="3005000" />
+      <workItem from="1487196653785" duration="392000" />
     </task>
     <task id="LOCAL-00001" summary="remove old project, add new section, and styling css">
       <created>1471539709502</created>
@@ -614,11 +645,25 @@
       <option name="project" value="LOCAL" />
       <updated>1487028624256</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="add cursor">
+      <created>1487173192570</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1487173192570</updated>
+    </task>
+    <task id="LOCAL-00033" summary="add sass">
+      <created>1487173321621</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1487173321621</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="374926000" />
+    <option name="totallyTimeSpent" value="379360000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -630,18 +675,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
+    <frame x="-5" y="0" width="2576" height="1416" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12332545" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25925925" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984716" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45532832" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3320343" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969603" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969603" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.395947" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.395947" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -684,8 +729,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new design, new sizing. &#10;create section,&#10;add flexbox." />
-    <MESSAGE value="media queries 320 - 480" />
     <MESSAGE value="media queries min 32 and min 480 all done. &#10;only missing page with logo" />
     <MESSAGE value="add fontface" />
     <MESSAGE value="background mobile" />
@@ -709,7 +752,9 @@
     <MESSAGE value="refactor images properties. change header section" />
     <MESSAGE value="create new dl list." />
     <MESSAGE value="add new lux-clean project" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new lux-clean project" />
+    <MESSAGE value="add cursor" />
+    <MESSAGE value="add sass" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sass" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -725,7 +770,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/jfdd-landing.png" />
     <entry file="file://$PROJECT_DIR$/images/black-mac.jpg" />
     <entry file="file://$PROJECT_DIR$/images/black-mac-1024-768.jpg" />
     <entry file="file://$PROJECT_DIR$/images/computer-black-background-XL.jpg" />
@@ -836,35 +880,41 @@
     <entry file="file://D:/DOWNLOAD/CHROME/uipixels-pack/uipixels-pack/.htaccess" />
     <entry file="file://D:/DOWNLOAD/CHROME/uipixels-pack/uipixels-pack/index.php" />
     <entry file="file://D:/DOWNLOAD/CHROME/uipixels-pack/uipixels-pack/web/index.html" />
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/css/main-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
+        <state relative-caret-position="6086">
+          <caret line="358" column="28" lean-forward="true" selection-start-line="358" selection-start-column="28" selection-end-line="358" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/vendors/jquery-2.2.4.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="1" column="10741" lean-forward="false" selection-start-line="1" selection-start-column="10741" selection-end-line="1" selection-end-column="10741" />
+        <state relative-caret-position="444">
+          <caret line="1" column="10516" lean-forward="false" selection-start-line="1" selection-start-column="10516" selection-end-line="1" selection-end-column="10516" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="5" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="192" column="36" lean-forward="false" selection-start-line="192" selection-start-column="36" selection-end-line="192" selection-end-column="36" />
+        <state relative-caret-position="534">
+          <caret line="225" column="88" lean-forward="false" selection-start-line="225" selection-start-column="88" selection-end-line="225" selection-end-column="88" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="395" column="19" lean-forward="false" selection-start-line="395" selection-start-column="19" selection-end-line="395" selection-end-column="19" />
-          <folding />
-        </state>
+    <entry file="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
       </provider>
     </entry>
   </component>
