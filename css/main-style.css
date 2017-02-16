@@ -35,8 +35,8 @@ h2 {
 }
 
 p {
-    /*color: #646563;*/
-    color: #fff;
+    color: #646563;
+
 }
 
 a {
@@ -486,7 +486,6 @@ footer p {
 
     .logo {
         width: 77%;
-
     }
 
     .about-me-list-item, .btn-down-cv {
@@ -536,10 +535,10 @@ footer p {
 
     .logo {
         width: 50%;
-        padding-top: 25%;
+        padding-top: 40%;
 
     }
-
+}
     @media screen and (min-width: 769px) {
 
         .logo {
